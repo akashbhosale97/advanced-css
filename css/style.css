@@ -316,15 +316,20 @@ body {
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
   .form-page form label {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .form-page form input::placeholder {
     color: rgba(0, 0, 0, 0.4);
     font-size: 1.6rem; }
   .form-page form input[type='radio'] {
-    margin-right: 1rem; }
+    margin-right: 0.5rem;
+    height: 2rem;
+    width: 2rem; }
 
 .radio-group {
   display: flex; }
+  .radio-group .group {
+    display: flex;
+    align-items: center; }
   .radio-group .group:last-child {
     margin-left: 2rem; }
 

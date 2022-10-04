@@ -461,7 +461,7 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   &-page form label {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   &-page form input::placeholder {
@@ -469,13 +469,19 @@ body {
     font-size: 1.6rem;
   }
   &-page form input[type='radio'] {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    height: 2rem;
+    width: 2rem;
   }
 }
 
 .radio-group {
   display: flex;
 
+  & .group {
+    display: flex;
+    align-items: center;
+  }
   & .group:last-child {
     margin-left: 2rem;
   }
