@@ -291,3 +291,54 @@ body {
 
 .cta {
   text-align: center; }
+
+.form {
+  padding: 15rem 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485)); }
+  .form-page {
+    width: 114rem;
+    margin: 0 auto;
+    background-image: url("../img/nat-10.jpg"); }
+  .form-page form {
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+    width: 50%;
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 50%), url(../img/nat-10.jpg);
+    background-size: 100%;
+    padding: 8rem; }
+  .form-page form .heading-secondary {
+    margin-bottom: 2rem; }
+  .form-page form input[type='text'] {
+    width: 80%;
+    padding: 2rem;
+    outline: none;
+    border: none;
+    margin-bottom: 4rem;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+  .form-page form label {
+    font-size: 1.8rem; }
+  .form-page form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.6rem; }
+  .form-page form input[type='radio'] {
+    margin-right: 1rem; }
+
+.radio-group {
+  display: flex; }
+  .radio-group .group:last-child {
+    margin-left: 2rem; }
+
+.nsbtn {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #7ed56f;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 2rem; }
+
+footer {
+  background-color: #333;
+  padding: 8rem 0;
+  text-align: center; }
