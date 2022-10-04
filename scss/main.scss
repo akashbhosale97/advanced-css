@@ -277,6 +277,7 @@ body {
 .card .icon {
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   font-size: 6rem;
 }
@@ -345,7 +346,9 @@ body {
   font-size: 2.8rem;
   text-align: right;
   width: 75%;
-  bottom: -2rem;
+  bottom: 3rem;
+  right: 0.5rem;
+  z-index: 888;
 }
 
 .absolute-text span {
