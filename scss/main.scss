@@ -398,6 +398,8 @@ body {
 }
 
 .card-bottom {
+  position: relative;
+  z-index: 9999;
   padding: 3rem;
   text-align: center;
   & ul {
